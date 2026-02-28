@@ -1,0 +1,6 @@
+# Build outputs
+src/*.o
+titanx
+
+# Release artifacts (do not commit binaries)
+dist/
