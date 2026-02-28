@@ -1,8 +1,8 @@
 # Titan-X 1.0
 
 Titan-X 是一个轻量级命令执行器（command runner），支持：
-- 执行外部命令（如 `/bin/echo`、`ls`）。
-- 内建命令（`cd`、`pwd`、`exit`）。
+- 执行外部命令（如 /bin，/echo、ls）。
+- 内建命令（cd、pwd、exit）。
 - 基于 `PATH` 的命令路径查找与缓存（提升重复执行效率）。
 
 ---
@@ -10,7 +10,7 @@ Titan-X 是一个轻量级命令执行器（command runner），支持：
 ## 1. 环境要求
 
 - Linux（推荐 x86_64）
-- C 编译器（`cc`，例如 GCC）
+- C 编译器（例如 GCC）
 - `make`
 - 常见系统工具：`tar`、`ldd`、`readelf`
 
