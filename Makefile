@@ -16,4 +16,8 @@ titanx: $(OBJ)
 clean:
 	rm -f $(OBJ) titanx
 
-.PHONY: all clean
+.PHONY: all clean package
+
+
+package:
+	./scripts/package.sh 1.0
